@@ -11,6 +11,7 @@ function showTime() {
     day: "2-digit",
     month: "2-digit",
     year: "2-digit",
+    timeZone: "Europe/Lisbon", // Set the timezone to Lisbon
   };
 
   const formattedDate = date.toLocaleString("en-GB", options);

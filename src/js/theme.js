@@ -6,27 +6,28 @@ currentIndex = parseInt(currentIndex);
 const images = ["cover1.webp", "cover2.webp", "cover3.webp"];
 const colorSets = [
   {
-    "--text-color": "#c0caf5",
-    "--hover-color": "#bb9af7",
-    "--accent-color": "#7aa2f7",
-    "--accent-color-2": "#f7768e",
-    "--background-color": "#1a1b26",
+    "--text-color": "#cdd6f4", // Mocha text
+    "--hover-color": "#b4befe", // Lavender (accent)
+    "--accent-color": "#b4befe", // Lavender (accent)
+    "--accent-color-2": "#f38ba8", // Mocha red (optional secondary accent)
+    "--background-color": "#1e1e2e", // Mocha base
   },
   {
-    "--text-color": "#9fadc6",
-    "--hover-color": "#9B5856",
-    "--accent-color": "#28725A",
-    "--accent-color-2": "#D2C7CB",
-    "--background-color": "#15191d",
+    "--text-color": "#cdd6f4", // Mocha text
+    "--hover-color": "#b4befe", // Lavender (accent)
+    "--accent-color": "#b4befe", // Lavender (accent)
+    "--accent-color-2": "#f5e0dc", // Mocha overlay1
+    "--background-color": "#181825", // Mocha crust
   },
   {
-    "--text-color": "#c0caf5",
-    "--hover-color": "#e0af68",
-    "--accent-color": "#7aa2f7",
-    "--accent-color-2": "#bb9af7",
-    "--background-color": "#1a1b26",
+    "--text-color": "#cdd6f4", // Mocha text
+    "--hover-color": "#f9e2af", // Mocha yellow (secondary accent)
+    "--accent-color": "#b4befe", // Lavender (accent)
+    "--accent-color-2": "#f38ba8", // Mocha red (optional secondary accent)
+    "--background-color": "#1e1e2e", // Mocha base
   },
 ];
+
 
 function preloadImages() {
   for (let i = 0; i < images.length; i++) {
