@@ -2,7 +2,7 @@
   font-family: "JetBrainsMono Nerd Font";
   src:
     local("JetBrainsMono Nerd Font"),
-    url(../fonts/JetBrainsMono-Regular.woff2) format("woff2");
+    url(../fonts/JetBrainsMonoNerdFont-Regular.woff2) format("woff2");
 }
 
 :root {
