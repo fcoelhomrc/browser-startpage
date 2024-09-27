@@ -1,10 +1,8 @@
 @font-face {
-  font-family: "JetBrainsMono Font";
-  font-display: swap;
+  font-family: "JetBrainsMono Nerd Font";
   src:
-    local("JetBrainsMono Font"),
-    url(../fonts/JetBrainsMono-Regular.woff2) format("woff2"),
-    url(../fonts/JetBrainsMono-Regular.woff) format("woff"),
+    local("JetBrainsMono Nerd Font"),
+    url(../fonts/JetBrainsMono-Regular.woff2) format("woff2");
 }
 
 :root {
