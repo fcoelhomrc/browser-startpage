@@ -3,7 +3,7 @@
   font-display: swap;
   src:
     local("JetBrainsMono Nerd Font"),
-    url(../fonts/JetBrainsMonoNF.woff2) format("woff2"),
+    url(../fonts/JetBrainsMono-Regular.woff2) format("woff2"),
 }
 
 :root {
